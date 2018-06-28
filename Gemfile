@@ -37,7 +37,7 @@ gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
 gem 'gon', '~> 5.2.0'
-gem 'pusher'
+gem 'pusher', '>= 1.3.1'
 gem 'eventmachine', '~> 1.0.4'
 gem 'em-websocket', '~> 0.5.1'
 
@@ -74,7 +74,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker', '~> 1.4.3'
   gem 'mina'
-  gem 'mina-slack', github: 'peatio/mina-slack'
+  gem 'mina-slack', github: 'bonpekao/mina-slack'
   gem 'meta_request'
   gem 'better_errors'
   gem 'binding_of_caller'
